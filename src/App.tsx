@@ -3,8 +3,8 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 // import DataGrid from './components/DataGrid'
-// import DataTable from './components/DataTable'
-// import DataTableComponet from './components/DataTableComponet'
+import DataTable from './components/DataTable'
+import DataTableComponet from './components/DataTableComponet'
 // import Sonnar from './components/Sonnar'
 import DataGrid from './components/DataGridTest'
 import DataGrid3 from './components/DataGridTest2'
@@ -16,8 +16,8 @@ function App() {
     <>
     <h1>heading</h1>
     {/* <DataGrid/> */}
-    {/* <DataGrid3/> */}
-    <DataGrid4/>
+    <DataGrid3/>
+    {/* <DataGrid4/> */}
     {/* <DataTable/> */}
     {/* <Sonnar/> */}
     {/* <DataTableComponet/> */}
